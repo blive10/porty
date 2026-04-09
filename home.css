@@ -1,0 +1,434 @@
+    body{
+    margin: 0;
+    justify-content: center;
+    background-color:black;
+    padding: 0;
+    
+    
+    
+    
+}
+.Hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(33, 124, 12);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.frontend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 20px;
+    color: rgb(33, 124, 12);
+    margin-top: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+ #ritup{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}   
+.Bio-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    margin: none;
+    padding: none;
+    gap: 6px;
+}
+.Ybay:hover{
+
+    opacity: 0.071;
+    transition: opacity 2s;
+    border: solid 3px rgb(255, 255, 255);
+    filter: blur(4px);
+    
+
+}
+
+
+
+
+.Ybay{
+    
+    display: flex;
+    border-radius: 20px;
+    height: 250px;
+    width: 600px;
+    object-fit: cover;
+    object-position: top;
+
+    
+
+
+    
+}
+.Ybay2{
+    
+    clip-path: circle(27%);
+    width: 90px;
+    height: 100px;
+    padding: 30px;
+    
+    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+.Yusuf{
+    color: rgba(16, 117, 16, 0.719);
+}
+.Bio-card{
+    flex-direction: column;
+    width: 350px;
+    display: flex;
+    color: rgba(255, 255, 255, 0.342);
+    text-align: center;
+    line-height: 1.9;
+    border: solid rgba(6, 91, 6, 0.582) 2px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media( max-width: 450px){
+    .Ybay{
+        width: 400px;
+        margin-left: 0;
+    }
+    .Bio-section{
+        flex-direction: column;
+    }
+    .Bio-card{
+        width: 300px;
+        font-size: 12px;
+    }
+}
+
+
+.ul A.m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 20px;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    color:rgb(228, 234, 227);
+    font-weight:500px;
+
+    
+}
+.Up-card{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: none;
+    padding: 10px;
+    gap: 50px;
+    width: 100%;
+    
+
+}
+@media( max-width: 450px){
+    .Up-card{
+        flex-direction: column;
+    }
+}
+.offer-card{
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(21, 99, 5);
+    font-size: 20px
+    
+    
+}
+
+    
+
+.card{
+    color: rgba(255, 255, 255, 0.699);
+    padding: 22px 25px;
+    background-color: rgba(138, 135, 131, 0.087);
+    border-radius: 20px;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1.2;
+    height: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.card:hover{
+    background-color: rgba(31, 29, 29, 0.096);
+    outline: solid 1px rgba(240, 235, 235, 0.139);
+}
+small{
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    border: rgba(255, 255, 255, 0.043) solid 1px;
+    color: rgba(208, 205, 205, 0.105);
+}
+.card2{
+    background-color: rgba(138, 135, 131, 0.087);
+    border: green solid 1px;
+    padding: 35px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: wheat;
+
+}
+.card2:hover{
+    
+    box-shadow: 0 0 60px #4caf4f63, 0 0 6px #65bb6450;
+}
+.request-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+}
+.C1-request{
+    color: rgb(4, 109, 4);
+}
+.C2-request{
+    color: rgba(164, 188, 170, 0.63);
+    background-color: rgba(26, 29, 26, 0.651);
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.C2-request:hover{
+    background-color: rgba(21, 114, 4, 0.644);
+    color: white;
+}
+.co
+.address{
+    color: white;
+    
+}
+.contact{
+    color: rgb(5, 4, 4);
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    text-align: left;
+    
+    
+}
+hr{
+
+    outline: solid rgba(0, 0, 0, 0.094) 1px;
+    width: 400px;
+    border: none;
+    margin-bottom: 50px;
+
+}
+.setrow{
+    display: flex;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: none;
+}
+@media( max-width: 450px){
+    .setrow{
+        flex-direction: column;
+    }
+    .msg-form{
+        width: 400;
+    }
+    .input-box textarea{
+        width: 300px;
+        height: 140px;
+    }
+    .msg-form input{
+        width: 300px;
+        
+    }
+}
+.msg-form{
+    
+    
+    padding: 20px 10px;
+    height: 290px;
+    width: 400px;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    
+
+}
+.msg-form input{
+    
+    border: none;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.447);
+    outline: none;
+    padding: 8px;
+    border-bottom: 2px solid rgba(17, 104, 5, 0.466);
+    display: flex;
+    margin-bottom: 1.3rem;
+    width: 90%;
+    transition: 0.3s;
+}
+.msg-form input:hover{
+    outline: white;
+    border-bottom: 1.2px white solid;
+}
+.msg-form.input:focus{
+    border-bottom: 2px solid #dfd1d1;
+}
+.msg-form ::placeholder{
+    color: rgba(236, 235, 235, 0.1);
+    
+}
+.input-box textarea{
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    border: solid 1px green;
+    width: 370px;
+    height: 170px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.486);
+    margin-bottom: 1.6rem;
+    
+    
+    
+
+}
+.input-box textarea::placeholder{
+    color: rgba(90, 86, 86, 0.311);
+    outline: none;
+    border: none;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    
+
+}
+.submit{
+    background: transparent;
+    color: rgba(207, 202, 202, 0.58);
+    border: none;
+    outline: rgba(223, 217, 218, 0.379) solid 1px;
+    margin-bottom: 30px;
+    padding: 7px 14px;
+    border-radius: 8px;
+    
+
+}
+.submit:hover{
+    outline: solid 1px rgba(9, 113, 9, 0.63);
+    color: rgba(255, 255, 255, 0.815);
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+#tyt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(33, 124, 12);
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    max-width: 190px;
+    
+    
+    
+       
+}
+
+#top-nav{
+    background-color: blanchedalmond;
+    width: 260px;
+    height: 230px;
+    border-radius: 10px;
+    justify-content: center;
+    display: inline-block;
+    gap: 30px;
+    
+}
+.w{
+    color: white;
+    background-color: rgba(177, 164, 164, 0.137);
+    line-height: 2;
+    
+}
+
+
+.h5{
+    margin-top: 1rem;
+}
+.helloty{
+    color: rgb(199, 161, 80);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50%;
+    font-size: 60px;
+    
+
+}
+
+
+
+#ritup{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    max-width: 600px;
+    word-break: break-word;
+    
+}
+.cursor {
+  display: inline;
+  margin-left: 8px;
+  animation: blink 1s infinite;
+   
+  
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+
